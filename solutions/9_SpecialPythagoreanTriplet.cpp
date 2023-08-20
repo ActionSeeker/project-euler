@@ -17,7 +17,7 @@ int main()
             double c = 500 - (((double)a * (double)b) / 1000);
             if (c - int(c) == 0 && a * a + b * b == ((int)c * (int)c))
             {
-                std::cout << " The magical values: " << a << ", " << b << ", " << c << std::endl;
+                std::cout << "The magical values: " << a << ", " << b << ", " << c << std::endl;
                 std::cout << "Does it satisfy pythagoream triplet? " << a * a + b * b << std::endl;
                 std::cout << "Does it satisfy pythagoream triplet? " << c * c << std::endl;
                 std::cout << "Does it satisfy the equation a+b+c = 1000? " << a + b + c << std::endl;
