@@ -3,7 +3,6 @@
 #include <vector>
 
 #define REALLY_LONG_INT unsigned long long int
-#define THE_ONLY_EVEN_PRIME 2
 #define CHUNK_SIZE 13
 
 bool substring_has_a_zero(std::string substring)
