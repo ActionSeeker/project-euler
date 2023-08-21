@@ -149,7 +149,7 @@ int main()
     {
         for (int column = 0; column < MAX_SIZE; column++)
         {
-            std::cout << grid[row][column] << std::endl;
+            // std::cout << grid[row][column] << std::endl;
             REALLY_LONG_INT product_horizontal = std::max(product_left(RANGE, row, column), product_right(RANGE, row, column));
             REALLY_LONG_INT product_vertical = std::max(product_up(RANGE, row, column), product_down(RANGE, row, column));
 
