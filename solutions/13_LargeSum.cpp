@@ -108,11 +108,11 @@ int main()
         "20849603980134001723930671666823555245252804609722",
         "53503534226472524250874054075591789781264330331690"};
 
-    BigInt bigSum = 0;
+    BigInt big_sum = 0;
     for (int index = 0; index < 150; index++)
     {
-        bigSum += numbers[index];
+        big_sum += numbers[index];
     }
-    std::cout << bigSum.to_string().substr(0, 10) << std::endl;
+    std::cout << big_sum.to_string().substr(0, 10) << std::endl;
     return 0;
 }
