@@ -34,3 +34,5 @@
 #VSCode
 .vscode
 output
+*.hpp
+.DS_Store
